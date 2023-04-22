@@ -2,7 +2,7 @@ import { initializeApp} from 'https://www.gstatic.com/firebasejs/9.20.0/firebase
 import { getDatabase, ref, push, onValue, remove} from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-database.js';
 
 const appSettings = {
-    databaseURL: "https://regform-9a6de-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    databaseURL: "Enter database url",
 }
 
 const firebaseApp = initializeApp(appSettings);
